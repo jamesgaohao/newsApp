@@ -1,0 +1,69 @@
+{
+  "pages": [{
+      "path": "pages/news/index",
+      "style": {}
+    },
+    {
+      "path": "pages/news/detail",
+      "style": {
+        "app-plus": {
+          "titleNView": {
+            "type": "transparent"
+          }
+        }
+      }
+    },{
+      "path": "pages/ucenter/ucenter",
+      "style": {}
+    },{
+      "path": "pages/ucenter/login",
+      "style": {}
+    },{
+      "path": "pages/about/about",
+      "style": {}
+    },
+	{
+	  "path": "pages/about/app",
+	  "style": {}
+	},{
+      "path": "pages/ucenter/userAndSubscription",
+      "style": {}
+    },{
+      "path": "pages/ucenter/regedit",
+      "style": {}
+    }
+  ],
+  "tabBar": {
+  	"color": "#7A7E83",
+	"fontSize": "20px",
+  	"selectedColor": "#0055ff",
+  	"borderStyle": "black",
+  	"backgroundColor": "#ffffff",
+  	"list": [{
+  		"pagePath": "pages/news/index",
+  		"iconPath": "static/home.png",
+  		"selectedIconPath": "static/home-active.png",
+  		"text": "首页"
+  	}, {
+  		"pagePath": "pages/ucenter/ucenter",
+  		"iconPath": "static/center.png",
+  		"selectedIconPath": "static/center-active.png",
+  		"text": "我的"
+  	}]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "易阅读-新闻咨询",
+    "navigationBarBackgroundColor": "#2F85FC",
+    "backgroundColor": "#FFFFFF"
+  },
+  "rightWindow": {
+    "path": "responsive/right-window.vue",
+    "style": {
+      "width": "calc(100vw - 450px)"
+    },
+    "matchMedia": {
+      "minWidth": 768
+    }
+  }
+}
